@@ -30,5 +30,20 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     zip_safe=False,
+    extras_require={
+        "dev": [
+            "coverage",
+            "darglint",
+            "python-dotenv",
+            "flake8",
+            "Markdown",
+            "pyroma",
+            "pytest",
+            "recommonmark",
+            "sphinx",
+            "sphinx_markdown_builder",
+            "sphinx-rtd-theme",
+            "tox",
+            "twine",
+            "wheel"]}
 )
-

@@ -28,14 +28,29 @@ Unit tests can be executed from the project root directory using:
 
 All code is licenced under GPL v.3 or newer.
 
-First commit to this repository was based on source from here:
+First commit to dijxtra's repository was based on source from here:
 http://ilab.cs.byu.edu/cs460/2006w/assignments/program1.html
+
+Then gburca added python 3 support
+
+This forks added support to pypi
 
 ## Forked information
 
 Forked from gburca/simplepyged which forked from dijxtra/simplepyged
 
 ## Release on pypi / pypi_test
+
+
+7.run sphinx-api 
+`updates the *.rst in docs/ folder`
+
+> sphinx-apidoc -f -o docs simplepyged
+
+8. run sphinx-build
+(updates the read_the_docs folder)
+
+> sphinx-build -b html docs build/html
 
 release on pypi (assumes your pypirc is local to the project)
 
