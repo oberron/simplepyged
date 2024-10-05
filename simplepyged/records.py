@@ -330,6 +330,9 @@ class Individual(Record):
             return date
         except ValueError:
             return -1
+        # MCV fix
+        except IndexError:
+            return -1
 
     def alive(self):
         """ Return True if individual lacks death entry """

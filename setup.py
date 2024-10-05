@@ -1,17 +1,24 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+"""
+Created on 2022-Dec-31
+
+@author: oberron
+"""
 from setuptools import setup, find_packages
 from simplepyged import __version__
 
 setup(
-    name='simplepyged',
+    name='simplepyged_ob',
     version=__version__,
-    description='A simple Python GEDCOM parser',
-    long_description=open('README.rst', 'r').read(),
+    description='A simple Python GEDCOM parser (forked from gburca/simplepyged which forked from dijxtra/simplepyged)',
+    long_description=open('README.md', 'r').read(),
     keywords='gedcom, genealogy',
-    author=u'Nikola Škorić',
-    author_email='nskoric@gmail.com',
-    url='https://github.com/dijxtra/simplepyged/',
+    author='Oberron (based on original work from Nikola Škorić)',
+    author_email="one.annum@gmail.com",
+    url='https://github.com/oberron/simplepyged',
     license='GPL',
-    package_dir={'simplepyged': 'simplepyged'},
+    package_dir={'simplepyged_ob': 'simplepyged'},
     include_package_data=True,
     packages=find_packages(),
     classifiers=[
