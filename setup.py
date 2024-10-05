@@ -34,8 +34,10 @@ setup(
         "dev": [
             "coverage",
             "darglint",
-            "python-dotenv",
             "flake8",
+            "myst_parser",
+            "nbsphinx",
+            "python-dotenv",
             "Markdown",
             "pyroma",
             "pytest",
